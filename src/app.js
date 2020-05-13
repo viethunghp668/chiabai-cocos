@@ -113,11 +113,11 @@ var HelloWorldLayer = cc.Layer.extend({
             temp.setTag(i + 2);
             this.backFaceCards.push(temp);
         }
-        this.bg_black = new ccui.ImageView('res/black.png', ccui.Widget.LOCAL_TEXTURE);
-        this.addChild(this.bg_black, 1000);
-        this.bg_black.cname = 'bg_black';
-        this.bg_black.x = cc.winSize.width / 2;
-        this.bg_black.y = cc.winSize.height / 2
+        // this.bg_black = new ccui.ImageView('res/black.png', ccui.Widget.LOCAL_TEXTURE);
+        // this.addChild(this.bg_black, 1000);
+        // this.bg_black.cname = 'bg_black';
+        // this.bg_black.x = cc.winSize.width / 2;
+        // this.bg_black.y = cc.winSize.height / 2;
 
         self = this;
         if (cc.sys.capabilities.hasOwnProperty('mouse')) {
